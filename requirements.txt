@@ -1,0 +1,22 @@
+# S3AD: time-series anomaly detection experiments
+#
+# CPU install:
+#   pip install -r requirements.txt
+#
+# CUDA install example:
+#   pip install -r requirements.txt
+#   pip install torch==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+
+torch>=2.0.0
+pytorch-lightning>=2.0.0
+torchmetrics>=0.11.0
+
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+pandas>=2.0.0
+PyWavelets>=1.4.0
+
+tensorboardX>=2.6.0
+tqdm>=4.64.0
+PyYAML>=6.0
